@@ -18,7 +18,8 @@ The skill has three layers:
 
 The collection process is simple: when I come across a color resource worth keeping — a YouTube video, a GitHub repo, a research paper, an article — I paste the URL and the skill's workflow captures it:
 
-- **Videos** get transcribed via `yt-dlp`, summarized, and key concepts extracted
+- **Videos** get transcribed via [`yt-dlp`](https://github.com/yt-dlp/yt-dlp), summarized, and key concepts extracted
+- **PDFs and documents** get converted to markdown via [`markitdown`](https://github.com/microsoft/markitdown) by Microsoft
 - **GitHub repos** get their README/docs fetched and documented
 - **Articles** get their content extracted and saved
 - **Books mentioned in videos** get searched on Archive.org; freely available PDFs get downloaded
